@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/label_show_text"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_texto"
+            android:labelFor="@id/input_text"
+            android:textSize="16sp"
+            android:layout_weight="2"
+            android:layout_margin="6dp"/>
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_weight="10"
+            android:textSize="45sp"
+            android:autofillHints="none"/>
+
+        <Button
+            android:id="@+id/button_enviar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/button_enviar_string"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_font_size"
+        android:textSize="16sp"
+        android:layout_margin="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/seekbar_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="80"
+            android:progress="16"
+            android:layout_margin="8dp"
+            android:layout_weight="10"/>
+
+        <TextView
+            android:id="@+id/label_font_size_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_standard_size"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_estilo"
+        android:textSize="16sp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_negrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/checkbox_negrito"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_italico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/checkbox_italico"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_maiusculas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/checkbox_maiusculas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_cor_letra"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_vermelho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_vermelho"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/radio_verde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_verde"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/radio_azul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_azul"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+
+</LinearLayout>

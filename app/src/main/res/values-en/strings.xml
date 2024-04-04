@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_texto">Text</string>
+    <string name="label_font_size">Font size</string>
+    <string name="label_estilo">Style</string>
+    <string name="label_cor_letra">Font color</string>
+    <string name="checkbox_negrito">Bold</string>
+    <string name="checkbox_italico">Italic</string>
+    <string name="checkbox_maiusculas">Uppercase</string>
+    <string name="radio_verde">Green</string>
+    <string name="radio_azul">Blue</string>
+    <string name="button_enviar_string">Ok</string>
+    <string name="radio_vermelho">Red</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" translatable="false">SeletorTexto</string>
+
+    <string name="label_texto">Texto </string>
+    <string name="label_font_size">Tamanho da letra </string>
+    <string name="label_estilo">Estilo </string>
+    <string name="label_cor_letra">Cor da letra</string>
+    <string name="label_standard_size" translatable="false">16 sp</string>
+
+    <string name="checkbox_negrito">Negrito</string>
+    <string name="checkbox_italico">Itálico</string>
+    <string name="checkbox_maiusculas">Maiúsculas</string>
+
+    <string name="radio_verde">Verde</string>
+    <string name="radio_azul">Azul</string>
+
+    <string name="button_enviar_string">Ok</string>
+    <string name="radio_vermelho">Vermelho</string>
+</resources>
